@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn-color {
+  width: 100px;
+  padding: 6px 10px;
+  border: 1px solid #343a40;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn-color:hover {
+  background-color: #343a40;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
